@@ -44,6 +44,10 @@ public class objComida
     public void setCliente(String cliente) {
         this.cliente = cliente;
     }
+    public String toString() 
+    {
+        return "Cliente: " + cliente + ", Pedido: " + producto;
+    }
     
     
 }
